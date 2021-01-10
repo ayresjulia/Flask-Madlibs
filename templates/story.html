@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block title %} New Story {% endblock %} {% block
+content %}
+<h1>Hi {{username}}! Let's get started.</h1>
+<form action="/user-story">
+	<p>place: <input type="text" placeholder="type here" name="place" /></p>
+	<p>noun: <input type="text" placeholder="type here" name="noun" /></p>
+	<p>verb: <input type="text" placeholder="type here" name="verb" /></p>
+	<p>
+		adjective:
+		<input type="text" placeholder="type here" name="adjective" />
+	</p>
+	<p>
+		plural_noun:
+		<input type="text" placeholder="type here" name="plural_noun" />
+	</p>
+
+	<button>Submit</button>
+</form>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block title %} New Story {% endblock %} {% block
+content %}
+<h1>Welcome to the Madlibs page!</h1>
+<form action="/story">
+	Type in your username to start :
+	<input type="text" placeholder="your name here" name="username" />
+	<button>Submit</button>
+</form>
+
+{% endblock %}

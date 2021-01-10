@@ -1,0 +1,22 @@
+body {
+	background-color: rgb(199, 197, 197);
+	color: #a9a9a9;
+	font-family: 'Bodoni Moda', serif;
+	margin-left: 10px;
+}
+
+button {
+	border: none;
+	border-radius: 10px;
+}
+
+button:hover {
+	color: white;
+	background-color: #ff3b3f;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	background-color: #caebf2;
+}
